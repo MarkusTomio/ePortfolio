@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- ===== META INFORMATION ===== -->
+    <meta name="author" content="Markus Tomio" />
+    <meta name="description" content="Curriculum Vitae of Markus Tomio." />
+    <title>Curriculum Vitae · Markus Tomio</title>
+
+    <!-- ===== STYLES & SCRIPTS ===== -->
+    <link href="../../styles/style.css" rel="stylesheet" />
+    <script src="../../scripts/my-js-file.js" defer></script>
+
+    <!-- ===== FAVICON ===== -->
+    <link rel="icon" href="../../static/favicon.ico" type="image/x-icon" />
+
+    <!-- ===== GOOGLE FONT ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =========================================
+         HEADER
+         Shared site header with navigation
+         ========================================== -->
+    <header>
+        <div class="header-content">
+            <a href="../index.html" class="logo-link">
+                <img src="../../static/images/logo-MT-dark.png" alt="Logo Markus Tomio" class="logo default-logo">
+                <img src="../../static/images/logo-MT-hover.png" alt="Logo Markus Tomio Hover" class="logo hover-logo">
+            </a>
+
+            <h1 class="header"><a href="../index.html">MARKUS TOMIO</a></h1>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="./index.html">CV</a></li>
+                    <li><a href="../universityProjects/index.html">University Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- =========================================
+         MAIN CONTENT
+         CV hero, navigation and sections
+         ========================================== -->
+    <main class="main-content">
+
+        <!-- CV hero with portrait and short summary -->
+        <section class="cv-hero">
+            <img src="../../static/images/portrait-MT.png" alt="Portrait of Markus Tomio" class="cv-portrait">
+
+            <div class="cv-hero-text">
+                <h1>Curriculum Vitae</h1>
+                <p>
+                    I am a geographer and geoinformatics student with a strong interest in spatial data,
+                    workflow automation and remote sensing. After completing my B.Sc. in Geography at
+                    the University of Innsbruck, I started the M.Sc. in Applied Geoinformatics at the
+                    University of Salzburg.
+                </p>
+            </div>
+        </section>
+
+        <!-- Local CV navigation (anchors to sections on this page) -->
+        <section class="cv-nav">
+            <a href="#cv-work" class="cv-pill">Experience</a>
+            <a href="#cv-education" class="cv-pill">Education</a>
+            <a href="#cv-skills" class="cv-pill">Skills</a>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="cv-work" class="cv-section">
+            <h2>Experience</h2>
+
+            <article class="cv-card">
+                <header>
+                    <h3>Cartography &amp; Geoinformation Intern</h3>
+                    <p class="cv-meta">Austrian Alpine Club · Innsbruck · 2024</p>
+                </header>
+                <p>
+                    Digitised and maintained base data for new Alpine maps in ArcGIS, supported geospatial data
+                    acquisition and research for cartographic products, and assisted in fieldwork to validate and update
+                    spatial datasets.
+                </p>
+            </article>
+
+            <article class="cv-card">
+                <header>
+                    <h3>IT Intern</h3>
+                    <p class="cv-meta">Raiffeisen Online · Bolzano · 2017</p>
+                </header>
+                <p>
+                    Supported the team with setting up and configuring electronic devices, created and maintained
+                    simple spreadsheets and documentation, and gained first practical experience in an IT-oriented work
+                    environment.
+                </p>
+            </article>
+
+            <article class="cv-card">
+                <header>
+                    <h3>Student Jobs (Part-time)</h3>
+                    <p class="cv-meta">South Tyrol · 2015–2023</p>
+                </header>
+                <p>
+                    Seasonal work in agriculture, hospitality and film production, strengthening adaptability,
+                    reliability and teamwork.
+                </p>
+            </article>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section id="cv-education" class="cv-section">
+            <h2>Education</h2>
+
+            <article class="cv-card">
+                <header>
+                    <h3>M.Sc. Applied Geoinformatics</h3>
+                    <p class="cv-meta">University of Salzburg · 2025 – present</p>
+                </header>
+                <p>
+                    Focus on spatial data analysis, geodata infrastructures and workflow automation.
+                </p>
+            </article>
+
+            <article class="cv-card">
+                <header>
+                    <h3>B.Sc. Geography</h3>
+                    <p class="cv-meta">University of Innsbruck · 2022 – 2025</p>
+                </header>
+                <p>
+                    Bachelor thesis on automated geodata analysis for monitoring alpine vegetation
+                    phenology using remote sensing time series.
+                </p>
+            </article>
+
+            <article class="cv-card">
+                <header>
+                    <h3>Secondary School Diploma in Business IT</h3>
+                    <p class="cv-meta">Merano · 2013 – 2018</p>
+                </header>
+                <p>
+                    Specialisation in business informatics and basic programming.
+                </p>
+            </article>
+
+            <article class="cv-card">
+                <header>
+                    <h3>Additional Academic Background in Computer Science</h3>
+                    <p class="cv-meta">5 semesters · University of Innsbruck</p>
+                </header>
+                <p>
+                    Coursework in programming (Java, C, Haskell, Julia, SQL), databases, algorithms
+                    &amp; data structures and linear algebra.
+                </p>
+            </article>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="cv-skills" class="cv-section">
+            <h2>Skills</h2>
+            <div class="cv-badges">
+                <span class="badge">Python (GeoPandas, Rasterio, GDAL, xarray)</span>
+                <span class="badge">QGIS / ArcGIS Pro</span>
+                <span class="badge">Remote sensing time series</span>
+                <span class="badge">PostGIS / SQL</span>
+                <span class="badge">Git &amp; workflow automation</span>
+                <span class="badge">Cartography</span>
+                <span class="badge">German (native)</span>
+                <span class="badge">English (C1)</span>
+                <span class="badge">Italian (B2)</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========================================
+         FOOTER
+         Shared footer with social links + copyright
+         ========================================== -->
+    <footer>
+        <div class="footer-content">
+            <p class="copyright">© Markus Tomio 2025</p>
+
+            <div class="footer-right">
+                <section class="social-links">
+                    <h2>Get In Touch</h2>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/MarkusTomio" target="_blank" class="social-link">
+                                <img src="../../static/images/github-mark.png" alt="GitHub-Mark" class="socialLogo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/markus-tomio-5a9b47270/" target="_blank" class="social-link">
+                                <img src="../../static/images/InBug-Black.png" alt="LinkedIn-Mark" class="socialLogo">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

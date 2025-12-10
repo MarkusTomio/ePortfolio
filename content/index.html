@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- ===== META INFORMATION ===== -->
+    <meta name="author" content="Markus Tomio" />
+    <meta name="description" content="This is the homepage of Markus Tomio's ePortfolio. It contains a general introduction to the persona and the site's content." />
+    <title>Markus Tomio</title>
+
+    <!-- ===== STYLES & SCRIPTS ===== -->
+    <link href="../styles/style.css" rel="stylesheet" />
+    <script src="../scripts/my-js-file.js" defer></script>
+
+    <!-- ===== FAVICON ===== -->
+    <link rel="icon" href="../static/favicon.ico" type="image/x-icon" />
+
+    <!-- ===== GOOGLE FONT ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =========================================
+         HEADER
+         Logo, site title and primary navigation
+         ========================================== -->
+    <header>
+        <div class="header-content">
+            <!-- Logo (swaps image on hover) -->
+            <a href="./index.html" class="logo-link">
+                <img src="../static/images/logo-MT-dark.png" alt="Logo Markus Tomio" class="logo default-logo">
+                <img src="../static/images/logo-MT-hover.png" alt="Logo Markus Tomio Hover" class="logo hover-logo">
+            </a>
+
+            <!-- Site title -->
+            <h1><a href="./index.html">MARKUS TOMIO</a></h1>
+
+            <!-- Main navigation -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="./cv/index.html">CV</a></li>
+                    <li><a href="./universityProjects/index.html">University Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- =========================================
+         MAIN CONTENT
+         Introductory hero section
+         ========================================== -->
+    <main class="main-content">
+        <section id="home" class="hero-section">
+            <!-- Text column -->
+            <div class="hero-text">
+                <h1 class="hero-title">Welcome To My Portfolio</h1>
+
+                <p>
+                    <strong>Currently</strong>, I am a geographer pursuing a Master’s degree in Applied
+                    Geoinformatics at the University of Salzburg.
+                    The programme integrates methodological and technical components of geoinformatics,
+                    fostering a comprehensive understanding of spatial data and its applications in research
+                    and practice.
+                </p>
+
+                <p>
+                    <strong>In 2025</strong>, I graduated with a B.Sc. in Geography from the University of Innsbruck,
+                    where my thesis focused on the automation of geodata analysis for monitoring alpine vegetation
+                    phenology using remote sensing time series. Alongside my geoinformatics education, I gained
+                    complementary experience in computer science through courses in programming (Java, C, Haskell,
+                    Julia, SQL), databases, algorithms and data structures, and linear algebra.
+                </p>
+
+                <p>
+                    <strong>Previous work</strong> experience includes a two-month internship at the Austrian Alpine
+                    Club (Österreichischer Alpenverein) in Innsbruck, where I supported the Cartography &amp;
+                    Geoinformation team in digitizing base data for new maps using ArcGIS, conducted geospatial data
+                    acquisition and research, and assisted in fieldwork for the maintenance of spatial datasets.
+                </p>
+
+                <p>
+                    I am particularly interested in the technical and analytical dimensions of geoinformatics — such as
+                    geospatial software development, workflow automation, and the integration of spatial data within
+                    broader analytical and infrastructural contexts.
+                </p>
+            </div>
+
+            <!-- Portrait image (right column in flex layout) -->
+            <img src="../static/images/portrait-MT.png"
+                 alt="Portrait of Markus Tomio"
+                 title="Portrait of Markus Tomio" />
+        </section>
+    </main>
+
+    <!-- =========================================
+         FOOTER
+         Contact / social links + copyright
+         ========================================== -->
+    <footer>
+        <div class="footer-content">
+            <p class="copyright">© Markus Tomio 2025</p>
+
+            <div class="footer-right">
+                <section class="social-links">
+                    <h2>Get In Touch</h2>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/MarkusTomio" target="_blank" class="social-link">
+                                <img src="../static/images/github-mark.png" alt="GitHub-Mark" class="socialLogo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/markus-tomio-5a9b47270/" target="_blank" class="social-link">
+                                <img src="../static/images/InBug-Black.png" alt="LinkedIn-Mark" class="socialLogo">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
